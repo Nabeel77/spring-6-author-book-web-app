@@ -17,7 +17,7 @@ public class Book {
     @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"), inverseJoinColumns = @JoinColumn(name = "author_id"))
     private Set<Author> authors;
 
-    public Set<Author> getAuthors() {
+    public Set<Author> getAuthors() { //test
         return authors;
     }
 
